@@ -1,0 +1,23 @@
+<h1>Hello {name}!</h1>
+
+-=<Foo />=-
+
+<style>
+	h1 {
+		color: purple;
+	}
+</style>
+
+<script>
+	// works
+	import Foo from 'svelte-module-test/Foo.html';
+
+	// doesn't work
+	// import { Foo } from 'svelte-module-test';
+
+	export default {
+		components: {
+			Foo
+		}
+	}
+</script>
