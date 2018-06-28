@@ -1,6 +1,6 @@
 # svelte test app webpack
 
-In [App.html](src/App.html), importing a svelte component from a node module directly (import Foo from 'svelte-module-test/Foo.html') works fine but importing via index API (`import { Foo } from 'svelte-module-test'`) errors when running the app `Uncaught TypeError: o.Foo is not a constructor`.
+In [App.html](src/App.html), importing a svelte component from a node module directly (`import Foo from 'svelte-module-test/Foo.html'`) works fine but importing via index API (`import { Foo } from 'svelte-module-test'`) errors when running the app `Uncaught TypeError: o.Foo is not a constructor`.
 
 # svelte app
 
